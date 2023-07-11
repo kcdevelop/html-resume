@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Nunito:wght@300;400&display=swap');
+
+:root {
+    --primary-color: #00b1eb;
+    --secondary-color: rgb(50, 255, 231);
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+}
+.primary-font {
+    font-family: "Orbitron";
+}
+.secondary-font {
+    font-family: "Nunito", verdana, arial, sans-serif;
+}
+/***********
+Reset Styles
+************/
+html, body, div, p, a,
+section, aside, article,
+h1, h2, h3, h4, h5, img, dl,
+dt, dd, span, ul, ol, li, form,
+fieldset, input, textarea {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/*************
+Default Styles
+**************/
+.percent-100 {
+    width: 100%;
+}
+.percent-95 {
+    width: 95%;
+}
+.percent-90 {
+    width: 90%;
+}
+.percent-85 {
+    width: 85%;
+}
+.percent-60 {
+    width: 60%;
+}
+.percent-50 {
+    width: 50%;
+}
+.percent-40 {
+    width: 40%;
+}
+.percent-30 {
+    width: 30%;
+}
+.disply-none {
+    display: none;
+}
+.disply-flex {
+    display: flex;
+}
+.dir-row {
+    flex-direction: row;
+}
+.dir-column {
+    flex-direction: column;
+}
+.lateral-center {
+    margin: 0 auto;
+}
+.cont-lat-center {
+    justify-content: center;
+}
+.cont-lat-left {
+    justify-content: left;
+}
+.cont-lat-right {
+    justify-content: right;
+}
+.cont-lat-sp-btw {
+    justify-content: space-between;
+}
+.cont-lat-sp-evn {
+    justify-content: space-evenly;
+}
+.cont-ver-top {
+    align-items: flex-start;
+}
+.cont-ver-center {
+    align-items: center;
+}
+.cont-ver-bottom {
+    align-items: flex-end;
+}
+.column-auto {
+    flex: 1 auto;
+}
+.column-fill {
+    flex: 1;
+}
+/************
+Common Styles
+*************/
+.personal,
+.section-heading {
+    border-bottom-color: var(--primary-color);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+.detail .title,
+.personal .name,
+.personal .contact a {
+    color: var(--black);
+}
+.divider,
+.skills i,
+.school i,
+.section-heading,
+.work-sample-link {
+    color: var(--primary-color);
+}
+.skills,
+.schools,
+.work-heading {
+    flex-wrap: wrap;
+}
+.skills,
+.summary,
+.work-heading,
+.work-description,
+.personal .contact,
+.work-sample-heading {
+    font-size: 15px;
+}
+.skills i,
+.school i {
+    font-style: normal;
+}
+.title,
+.skills i,
+.school i,
+.print-btn,
+.work-sample-link,
+.personal .contact,
+.work-description i,
+.work-heading .divider {
+    font-weight: 700;
+}
+.summary,
+.work-description {
+    line-height: 21px;
+}
+.work-sample-link,
+.personal .contact a {
+    text-decoration: none;
+}
+/*****************
+Resume Page Styles
+******************/
+.resume,
+.control-panel {
+    margin: 11px auto;
+    max-width: 850px;
+    min-width: 320px;
+}
+.print-btn {
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    letter-spacing: .045em;
+    padding: 5px 0px 4px;
+    max-width: 120px;
+    min-width: 90px;
+}
+.resume {
+    padding: 25px 0px 35px;
+}
+/*****************
+Main Heading Styles
+******************/
+.main-heading {
+    margin-bottom: 24px;
+}
+.detail {
+    margin-top: 1px;
+}
+.personal .name {
+    letter-spacing: .02em;
+    line-height: 32px;
+    font-size: 32px;
+    text-transform: capitalize;
+    vertical-align: bottom;
+}
+.personal .contact {
+    letter-spacing: .015em;
+    line-height: 17px;
+    text-align: right;
+}
+.detail .title {
+    letter-spacing: .025em;
+    line-height: 21px;
+    font-size: 19px;
+}
+.personal .name + .title {
+    display: none;
+}
+/*********************
+Section Heading Styles
+*********************/
+.section-heading {
+    border-bottom-width: 2px;
+    letter-spacing: .035em;
+    line-height: 1.28em;
+    font-size: 1.15em;
+    margin-bottom: 12px;
+    padding-bottom: 2px;
+}
+.work-heading {
+    line-height: 24px;
+}
+.work-sample-heading {
+    margin-bottom: 4px;
+}
+/*************
+Section Styles
+**************/
+.section-subject {
+    margin-bottom: 20px;
+}
+.skills:not(:last-child) {
+    margin-bottom: 15px;
+}
+.skills {
+    list-style-type: none;
+}
+.divider {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.work-entry {
+    margin-bottom: 5px;
+}
+.work-description:nth-child(2),
+.work-description:nth-child(3) {
+    margin-bottom: 7px;
+}
+.work-samples,
+.work-entry:last-child,
+.work-entry:last-child .work-description {
+    margin-bottom: 0px;
+}
+.work-sample-link {
+    letter-spacing: .020em;
+    font-size: 14px;
+}
+.page {
+    margin: 15px auto 30px;
+    max-width: 750px;
+}
+.main-form-heading,
+.row:not(:last-child) {
+    margin-bottom: 15px;
+}
+.column {
+    flex: 1 auto;
+}
+input,
+.column,
+.fieldset-heading,
+.main-form-heading {
+    padding: 0px 5px;
+}
+.add,
+input,
+select,
+textarea {
+    display: block;
+}
+input,
+select,
+textarea,
+.fieldset-heading,
+.main-form-heading {
+    font-family: avenir, arial;
+}
+input,
+select,
+textarea,
+::placeholder {
+    color: #000;
+}
+.add-button,
+.main-form-heading {
+    text-align: center;
+}
+.fieldset-heading {
+    margin-bottom: 5px;
+}
+fieldset {
+    border: none;
+    position: relative;
+}
+fieldset:not(:last-child) {
+    margin-bottom: 25px;
+}
+.add-button {
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 50px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    height: 14px;
+    line-height: 13px;
+    position: absolute;
+    right: 0px;
+    top: -8px;
+    user-select: none;
+    width: 14px;
+}
+.add-button:hover {
+    background-color: rgb(253, 253, 74);
+    border: 1px solid rgb(9, 120, 9);
+    color: rgb(9, 120, 9);
+}
+input {
+    height: 28px;
+}
+textarea {
+    padding: 8px;
+    resize: none;
+    text-align: left;
+}
+.work-text,
+.summary-text {
+    height: 75px;
+}
+.design-text,
+.skills-text {
+    height: 40px;
+}
+@media screen and (max-width: 935px) {
+    .resume.percent-100,
+    .control-panel.percent-100 {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 835px) {
+    .schools.dir-row {
+        flex-direction: column;
+    }
+    .skills .divider,
+    .schools .divider {
+        display: none;
+    }
+    .skill i.disply-none,
+    .school i.disply-none,
+    .skills .comma.disply-none {
+        display: inline-block;
+    }
+    .skills .comma.disply-none {
+        padding-right: 4px;
+    }
+}
+@media screen and (max-width: 765px) {
+    .personal {
+        border: none;
+    }
+    .main-heading .name {
+        border-bottom-color: var(--primary-color);
+        border-bottom-style: solid;
+        margin-bottom: 2px;
+    }
+    .personal .contact {
+        align-items: flex-start;
+        line-height: 19px;
+        text-align: left;
+    }
+    .personal .name + .title,
+    .work-description .mobile-spacer {
+        display: block;
+    }
+    .main-heading .detail,
+    .main-heading .resources {
+        display: none;
+    }
+    .main-heading .personal {
+        flex-direction: column;
+    }
+    .main-heading .contact.dir-column {
+        flex-direction: column-reverse;
+    }
+    .work-description .mobile-spacer {
+        margin-top: 12px;
+    }
+    .main-heading .name,
+    .main-heading .detail,
+    .main-heading .contact {
+        width: 100%;
+    }
+    .skills-set.cont-lat-sp-btw {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .skills {
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .work-heading {
+        line-height: 20px;
+        margin-bottom: 3px;
+    }
+    .work-heading.dir-row {
+        flex-direction: column;
+    }
+    .work-heading .divider {
+        display: none;
+    }
+    .work-entry {
+        margin-bottom: 7px;
+    }
+}
+@media screen and (max-width: 535px) {
+    .schools,
+    .design-skills .skills,
+    .technical-skills .skills {
+        width: auto;
+    }
+}
+@media print {
+    /*.divider,
+    .section-heading {
+        color: #000;
+    }
+    .section-heading,
+    .main-heading .name,
+    .main-heading.contact {
+        border-bottom-color: #000;
+    }*/
+    .resume {
+        padding-bottom: 0px;
+        padding-top: 15px;
+    }
+    /*.work-entry:nth-child(5) {
+        break-before: page;
+    }*/
+    .control-panel,
+    .work-sample-link {
+        display: none;
+    }
+    .work-sample-url.disply-none {
+        display: block;
+    }
+}

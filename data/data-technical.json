@@ -1,0 +1,112 @@
+{
+    "resume": {
+        "personal": {
+            "name": "Kenneth Corbin",
+            "title": "Front End Developer",
+            "phone": "301-704-37865",
+            "email": "kennethcrb@gmail.com"
+        },
+        "summary": {
+            "sectionHeading": "Professional Summary",
+            "text": "As a Front End Developer with eight years of agency experience, I have worked closely with various in-house and external teams. While focusing on user experience and reusability, I have developed and maintained feature-rich web applications for commercial brands, congressional campaigns, and issue advocacy organizations. My co-workers have recognized my work ethic, thorough consideration of project requirements, and ability to provide thoughtful information to non-technical personnel/clients. Development is an ever-evolving process, so quickly learning new skills has been an essential part of my toolbox. I enjoy working on various projects and using appropriate technologies to complete them effectively."
+        },
+        "education": {
+            "sectionHeading": "Education",
+            "schools": [
+                "Montgomery College, AAS Web Applications (2009-2011)",
+                "Howard University, BFA (2001-2005)"
+            ]
+        },
+        "skills": {
+            "sectionHeading": "Technical Competencies",
+            "skillSets": [
+                {
+                    "set0": [
+                        "HTML5",
+                        "CSS3",
+                        "LESS",
+                        "Vanilla JavaScript",
+                        "JQuery",
+                        "React",
+                        "Redux Experience",
+                        "AJAX",
+                        "JSON"
+                    ]
+                },
+                {
+                    "set1": [
+                        "PHP",
+                        "MYSQL",
+                        "WordPress (Custom Theming)",
+                        "WordPress (Plugins and Widgets)",
+                        "NPM"
+                    ]
+                },
+                {
+                    "set2": [
+                        "Webpack",
+                        "Github",
+                        "Mobile Responsive Builds",
+                        "Static Site Builders/Generators",
+                        "HTML Emails"
+                    ]
+                }
+            ]
+        },
+        "tools": {
+            "sectionHeading": "Design Tools",
+            "toolSet": [
+                "Adobe Acrobat Pro",
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Sketch"
+            ]
+        },
+        "workHistory": {
+            "sectionHeading": "Work Experience",
+            "entries": [
+                {
+                    "subHeading": {
+                        "employer": "Corbin Coding",
+                        "position": "Freelance Web Developer",
+                        "dates": "3/2010-Present"
+                    },
+                    "text": "As a Freelance Web Developer, I design and develop user-friendly websites, focusing on building custom features to achieve client goals."
+                },
+                {
+                    "subHeading": {
+                        "employer": "HZDG",
+                        "position": "Front-End Developer",
+                        "dates": "7/2013-12/2019"
+                    },
+                    "text": "While utilizing various web technologies and frameworks, my responsibilities included building mobile responsive websites, micro-sites, and interactive HTML email templates from design comps (PSDs/Sketch). To ensure performance and cross-browser compatibility, I was responsible for testing, debugging, and site maintenance in preparation for client/vendor delivery."
+                },
+                {
+                    "subHeading": {
+                        "employer": "CRAFT MEDIA DIGITAL",
+                        "position": "Front-End Developer",
+                        "dates": "8/2011-7/2013"
+                    },
+                    "text": "As a team member of the &ldquo;Digital Channel,&rdquo; I developed websites for high-profile political candidates, campaigns, and issue advocacy groups. Specifically, I was responsible for writing custom PHP applications, creating/editing graphics, theming WordPress sites and writing custom plugins/widgets. Other responsibilities included testing and maintaining digital assets, as well as collaborating with clients/vendors to define and implement new features."
+                },
+                {
+                    "subHeading": {
+                        "employer": "Prince Georges' County Public Schools",
+                        "position": "Substitute Teacher",
+                        "dates": "9/2005-5/2011"
+                    },
+                    "text": "In my role as a Substitute Teacher for four years, I was responsible for managing the classroom and supporting academic learning. I followed the lesson plans provided by the permanent teacher and assisted students in achieving their learning objectives. I also maintained proper classroom management and encouraged positive behavior to enhance the learning experience."
+                }
+            ]
+        },
+        "workSamples": {
+            "sectionHeading": "Work Samples",
+            "subHeading": "Websites/LandingPages/HTML Emails",
+            "links": {
+                "url": "https://kcdevelop.github.io/dashboard/",
+                "text": "View Work Samples&nbsp;",
+                "imgSrc": "images/light-blue-arrow.png"
+            }
+        }
+    }
+}
