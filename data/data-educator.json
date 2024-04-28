@@ -1,0 +1,161 @@
+{
+    "resume": {
+        "personal": {
+            "name": "Kenneth Corbin",
+            "title": "Theatre Arts (Drama) Teacher",
+            "phone": "301-704-3786",
+            "email": "kenneth.corbin@pgcps.org"
+        },
+        "summary": {
+            "sectionHeading": "Professional Summary",
+            "text": "As a first-year Drama Teacher (provisional), I decided to amalgamate the Comprehensive Middle School Drama curriculum. This approach has allowed me to provide my scholars with a well-rounded introduction to Theatre—including Scenic Design, Theatrical Lighting, and Acting (Meisner Technique). Unfortunately, I did not find the kind of time and resource support I needed to provide a more substantial experience for my scholars. Therefore, I am seeking a school that has or is open to allowing me to build a Theatre Arts program. One of my near-term goals is to develop a traveling troupe that would perform one-act plays throughout and beyond the county."
+        },
+        "education": {
+            "sectionHeading": "Education",
+            "schools": [
+                "Montgomery College, AAS Web Applications (2009-2011)",
+                "Howard University, BFA (2001-2005)",
+                "The American Academy of Dramatic Arts Acting, New York (1999-2000)"
+            ]
+        },
+        "skills": {
+            "sectionHeading": "Technical Competencies",
+            "skillSets": [
+                {
+                    "set0": [
+                        "HTML5",
+                        "CSS3",
+                        "LESS",
+                        "Vanilla JavaScript",
+                        "JQuery",
+                        "React",
+                        "Redux Experience",
+                        "AJAX",
+                        "JSON"
+                    ]
+                },
+                {
+                    "set1": [
+                        "PHP",
+                        "MYSQL",
+                        "WordPress (Custom Theming)",
+                        "WordPress (Plugins and Widgets)",
+                        "NPM"
+                    ]
+                },
+                {
+                    "set2": [
+                        "Webpack",
+                        "Github",
+                        "Mobile Responsive Builds",
+                        "Static Site Builders/Generators",
+                        "HTML Emails"
+                    ]
+                }
+            ]
+        },
+        "tools": {
+            "sectionHeading": "Design Tools",
+            "toolSet": [
+                "Adobe Acrobat Pro",
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Sketch"
+            ]
+        },
+        "workHistory": {
+            "sectionHeading": "Work Experience",
+            "entries": [
+                {
+                    "subHeading": {
+                        "employer": "Legends Public Charter School",
+                        "position": "Theatre Arts (Drama) Teacher",
+                        "dates": "7/2023-Present"
+                    },
+                    "text": "Using my educational and professional theatrical experience, I have amalgamated the Comprehensive Middle School Drama curriculum to provide my students with a complete introduction to Theatre. My class covers the literary, performance, and technical aspects of Theatre—including stage types, scenic design, theatrical lighting, storytelling, play/script formatting, the Dramatic Play Structure, Acting, and audition techniques."
+                },
+                {
+                    "subHeading": {
+                        "employer": "Prince Georges' County Public Schools",
+                        "position": "Substitute Teacher",
+                        "dates": "11/2022-7/23"
+                    },
+                    "text": "Upon returning to substitute teaching, I have continued to facilitate the learning process by implementing lesson plans provided by the permanent teacher and assisting students in achieving their academic goals. Additionally, I continue to encourage positive behavior throughout the learning process."
+                },
+                {
+                    "subHeading": {
+                        "employer": "Corbin Coding Web Design & Development",
+                        "position": "Freelance Web Developer",
+                        "dates": "3/2010-Present"
+                    },
+                    "text": "As a Freelance Web Developer, I design and develop user-friendly websites, focusing on building custom features to achieve client goals."
+                },
+                {
+                    "subHeading": {
+                        "employer": "HZDG",
+                        "position": "Front-End Developer",
+                        "dates": "7/2013-12/2019"
+                    },
+                    "text": "While utilizing various web technologies and frameworks, my responsibilities included building mobile responsive websites, micro-sites, and interactive HTML email templates from design comps (PSDs/Sketch). <span class=\"page-break-bottom\">To ensure performance and cross-browser compatibility, I was responsible for testing, debugging, and site maintenance in preparation for client/vendor delivery.<\/span>"
+                },
+                {
+                    "subHeading": {
+                        "employer": "CRAFT MEDIA DIGITAL",
+                        "position": "Front-End Developer",
+                        "dates": "8/2011-7/2013"
+                    },
+                    "text": "As a member of the \"Digital Channel\" team, I created websites for well-known political candidates, campaigns, and advocacy groups. My tasks included developing custom PHP applications, designing graphics, theming WordPress sites, and creating custom plugins and widgets. I also tested and maintained digital assets, and worked with clients and vendors to implement new features."
+                },
+                {
+                    "subHeading": {
+                        "employer": "Prince Georges' County Public Schools",
+                        "position": "Substitute Teacher",
+                        "dates": "9/2005-5/2011"
+                    },
+                    "text": "In my role as a Substitute Teacher for four years, I was responsible for managing the classroom and supporting academic learning. I followed the lesson plans provided by the permanent teacher and assisted students in achieving their learning objectives. I also maintained proper classroom management and encouraged positive behavior to enhance the learning experience."
+                },
+                {
+                    "subHeading": {
+                        "employer": "Montgomery County Public Schools",
+                        "position": "Substitute Teacher",
+                        "dates": "11/2006-5/2008"
+                    },
+                    "text": "As part of my role, I oversaw the daily operations of the classroom to support academic learning. I followed the lesson plans set by the permanent teacher and assisted students in achieving their objectives. Additionally, I ensured proper classroom management and encouraged positive behavior throughout the learning experience."
+                },
+                {
+                    "subHeading": {
+                        "employer": "Camp Lokanda",
+                        "position": "Camp Specialist (Theatre Arts)",
+                        "dates": "6/2009-8/2009 & 6/2010-8/2010"
+                    },
+                    "text": "As an Acting Instructor, I taught Acting classes to children aged 7-17. My classes included an introduction to the \"Meisner Technique,\" vocal production, and stage movement, all presented in a fun and engaging way for beginners. To reinforce these techniques, I used theatre games. Additionally, as the Production Director, I directed Musical Theatre International's \"Seussical Kids\" and \"Once On This Island,\" as well as a series of one-act plays. Finally, as Technical Director, I oversaw the implementation of all technical aspects of the end-of-season production."
+                },
+                {
+                    "subHeading": {
+                        "employer": "Journeys Summer Arts Camp (Duke Ellington School of the Arts)",
+                        "position": "Camp Specialist (Theatre Arts)",
+                        "dates": "6/2008-8/2008"
+                    },
+                    "text": "As the Program Assistant Director, my responsibilities involved overseeing the afternoon program, managing the administrative team, and organizing staff meetings and camp trips. In my role as Production Assistant Director, I was responsible for supporting the Production Director's vision by coaching the actors, developing characters, refining scenes, and contributing creative ideas. Additionally, as an Acting Instructor, I taught \"Method\" and \"Meisner\" acting techniques, character development, and voice techniques for the stage."
+                },
+                {
+                    "subHeading": {
+                        "employer": "Camp Regis-Apple Jack",
+                        "position": "Camp Specialist: Head Drama Counselor",
+                        "dates": "6/2006-7/2006"
+                    },
+                    "text": "As the Artistic Director of the Theatre Program, I developed an Acting and Introduction to Theatre curriculum for campers 6-16 years of age. My subject area responsibilities included teaching all Acting and \"Introduction to Theatre\" classes, directing an end-of-session musical (Funny Girl), directing weekly short plays, programming talent shows, and teaching basic lighting/set design. My general camp duties included overnight cabin supervision, participating in camp-wide activities, mentoring male campers, and supporting other activities."
+                }
+            ]
+        },
+        "workSamples": {
+            "sectionHeading": "",
+            "subHeading": "",
+            "links": {
+                "url": "",
+                "text": "",
+                "imgSrc": ""
+            }
+        }
+    }
+}

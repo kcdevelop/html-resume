@@ -439,11 +439,16 @@ textarea {
     }*/
     .resume {
         padding-bottom: 0px;
+        padding-top: 8px !important;
+    }
+    .resume.percent-100 {
+        width: 95%;
+    }
+    .work-entry:nth-child(5) .page-break-bottom {
+        break-before: page;
+        display: block;
         padding-top: 15px;
     }
-    /*.work-entry:nth-child(5) {
-        break-before: page;
-    }*/
     .control-panel,
     .work-sample-link {
         display: none;
