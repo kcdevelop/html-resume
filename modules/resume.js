@@ -145,7 +145,7 @@ const setWorkHistory = (data) => {
         
         if( externalLink != null && externalLink != undefined ) {
            if( externalLink != '' && linkText != '') {
-               linkHTML = `&nbsp;<a class="work-sample-link" href="${externalLink}" target="_blank">${linkText}&nbsp;&#9656;</a>`;
+               linkHTML = `&nbsp;<a class="work-sample-link" href="${externalLink}" target="_blank">${linkText}&#8201;&#9656;</a>`;
            }
         }
         
