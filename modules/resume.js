@@ -140,8 +140,15 @@ const setWorkHistory = (data) => {
 	let historyEntry = '';
 
 	entries.forEach(entry => {
-		let { subHeading, text } = entry;
-
+		let { subHeading, text, externalLink, linkText } = entry;
+        let linkHTML = '';
+        
+        if( externalLink != null && externalLink != undefined ) {
+           if( externalLink != '' && linkText != '') {
+               linkHTML = `&nbsp;<a class="work-sample-link" href="${externalLink}" target="_blank">${linkText}&nbsp;&#9656;</a>`;
+           }
+        }
+        
 		historyEntry += `
 			<article class="work-entry disply-flex dir-column secondary-font">
 				<h3 class="work-heading disply-flex dir-row">
@@ -151,7 +158,7 @@ const setWorkHistory = (data) => {
 					<span class="divider">|</span>
 					<span class="date">${subHeading.dates}</span>
 				</h3>
-				<p class="work-description">${text}</p>
+				<p class="work-description">${text}${linkHTML}</p>
 			</article>
 		`;
 	});
